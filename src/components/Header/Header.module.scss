@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
+}
+
+.day {
+  color: rgba(80, 184, 16, 1);
+  font-size: 1.5rem;
+}
+
+.infoBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Plusbtn {
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  background-color: rgba(235, 238, 246, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(61, 143, 236, 1);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Pagesblock {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(123, 138, 171, 1);
+  color: rgba(85, 85, 85, 1);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 5px;
+}
